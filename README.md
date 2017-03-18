@@ -19,7 +19,7 @@ sudo chown username -R /opt/tinyos-2.1.2/
 cd /opt/
 sudo vim tinyos.sh# Here we setup the environment
 
-'''
+```
     # variables needed by the tinyos 
     # make system
 
@@ -30,7 +30,7 @@ sudo vim tinyos.sh# Here we setup the environment
     export PYTHONPATH=$PYTHONPATH:$TOSROOT/support/sdk/python
 
     echo "setting up TinyOS on source path $TOSROOT"
-'''
+```
 sudo vim ~/.bashrc
 
 -add bottom underline 
@@ -76,8 +76,16 @@ vim /root/.vim/vimrc
 if user
 sudo vim /usr/share/vim/vimrc
 
-<pre>set nu </pre>
-<pre>set lines=40 columns=100</pre>
-<pre>syntax enable</pre>
-<pre>colo torte</pre>
-<pre>set ruler </pre><pre>syn on </pre><pre>colorscheme</pre>
+```
+    set nu
+    set lines=40 columns=100
+    syntax enable
+    colo torte
+    set ruler
+    syn on
+    colorscheme default
+    set ts=2
+    
+    au BufRead,BufNewFile *.nc set filetype=nesC
+    au syntax nesC source /usr/share/vim/vim74/syntax/nc.vim (you need to copy the nc.vim)
+```
