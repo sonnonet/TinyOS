@@ -6,9 +6,9 @@ by Han-Gyeol Kim
 
 sudo apt-get install -y vim
 
-- Tinyos Reposity add
-sudo vim /etc/apt/sources.list 
- - add under line
+1.Tinyos Reposity add
+  sudo vim /etc/apt/sources.list 
+  add under line
  deb http://tinyos.standford.edu/tinyos/dists/ubuntu lucid main
 sudo apt-get update 
 
