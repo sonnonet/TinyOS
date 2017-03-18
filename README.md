@@ -100,5 +100,24 @@ https://cygwin.com/install.html
     * perl
     * python
 ```
+  * Extra package
+``` * autoconf
+    * automake
+    * mingw64-x86_64-gcc-core 
+    * mingw64-x86_64-gcc-g++ 
+    * mingw64-i686-gcc-core 
+    * mingw64-i686-gcc-g++ 
+    * bison 
+    * flex 
+    * libiconv 
+    * patch 
+    * util-linux 
+    * wget 
+    * rpm-build 
+    * rpm-devel 
+    * rsync 
+    * diffutils 
+```
 3.new Reposity
 http://tinyos.stanford.edu/tinyos/dists/cygwin/
+
