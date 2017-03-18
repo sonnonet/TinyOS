@@ -100,3 +100,5 @@ https://cygwin.com/install.html
     * perl
     * python
 ```
+3.new Reposity
+http://tinyos.stanford.edu/tinyos/dists/cygwin/
