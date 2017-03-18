@@ -19,17 +19,18 @@ sudo chown username -R /opt/tinyos-2.1.2/
 cd /opt/
 sudo vim tinyos.sh# Here we setup the environment
 
-# variables needed by the tinyos 
-# make system
+'''
+    # variables needed by the tinyos 
+    # make system
 
-export TOSROOT="<local-tinyos-path>"
-export TOSDIR="$TOSROOT/tos"
-export CLASSPATH=$CLASSPATH:$TOSROOT/support/sdk/java
-export MAKERULES="$TOSROOT/support/make/Makerules"
-export PYTHONPATH=$PYTHONPATH:$TOSROOT/support/sdk/python
+    export TOSROOT="<local-tinyos-path>"
+    export TOSDIR="$TOSROOT/tos"
+    export CLASSPATH=$CLASSPATH:$TOSROOT/support/sdk/java
+    export MAKERULES="$TOSROOT/support/make/Makerules"
+    export PYTHONPATH=$PYTHONPATH:$TOSROOT/support/sdk/python
 
-echo "setting up TinyOS on source path $TOSROOT"
-
+    echo "setting up TinyOS on source path $TOSROOT"
+'''
 sudo vim ~/.bashrc
 
 -add bottom underline 
