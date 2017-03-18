@@ -75,6 +75,8 @@ vim /root/.vim/vimrc
 if user
 sudo vim /usr/share/vim/vimrc
 
-<pre>set nu 
-     set lines=40 columns=100
-</pre>
+<pre>set nu </pre>
+<pre>set lines=40 columns=100</pre>
+<pre>syntax enable</pre>
+<pre>colo torte</pre>
+<pre>set ruler </pre><pre>syn on </pre><pre>colorscheme</pre>
