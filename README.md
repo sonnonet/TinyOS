@@ -120,4 +120,8 @@ https://cygwin.com/install.html
 ```
 3.new Reposity
 http://tinyos.stanford.edu/tinyos/dists/cygwin/
-
+    Download Tinyos_Package 
+    MSP430Tools
+    toolchain
+    such as "rpm -Uvh --ignoreos packagename "
+    (rpm using - install rpm-ivh , remove rpm-ev, upgrade rpm-Uvh)
