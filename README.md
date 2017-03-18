@@ -67,3 +67,14 @@ sudo vim /opt/tinyos-2.1.2/tinyos.sh
 export PATH=/opt/msp430-46/bin:$PATH (you have to add)
 
 end...
+
+
+# How to setting Vim for Nesc
+if root
+vim /root/.vim/vimrc
+if user
+sudo vim /usr/share/vim/vimrc
+
+<pre>set nu 
+     set lines=40 columns=100
+</pre>
