@@ -89,3 +89,14 @@ sudo vim /usr/share/vim/vimrc
     au BufRead,BufNewFile *.nc set filetype=nesC
     au syntax nesC source /usr/share/vim/vim74/syntax/nc.vim (you need to copy the nc.vim)
 ```
+# How to install Tinyos-2.1.2 on Cygwin
+1.Download cygwin under site
+https://cygwin.com/install.html
+
+2.when the windows pops up to allow you to select what packages to install, be sure to select
+```
+    * rpm
+    * make
+    * perl
+    * python
+```
