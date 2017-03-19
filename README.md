@@ -147,7 +147,9 @@ Suppose you named this file <pre>tinyos.env</pre> There are now at least two pos
     * Place it as root user in /etc/profiled.d/
     * Place it in <local-tinyos-path>and add the following line to your .bashrc
     <pre>source (local-tinyos-path)/tinyos.env</pre>
-    
+
+*if you don't have .bashrc and .bash_profile you can get for /etc/skel 
+<pre>cp /etc/skel/.bashrc $HOME</pre>
     
 # How to setting Vim for Nesc
 if root
