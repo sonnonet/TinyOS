@@ -156,6 +156,11 @@ if root
 vim /root/.vim/vimrc
 
 # How to setting /dev/ttyUSB0 permission denied for general user
-sudo adduser id dialout
-sudo chmod a+rw /dev/ttyUSB0
+```
+sudo adduser <yourid> dialout
+sudo reboot
+id -Gn
+ls -l /dev/ttyUSB0
+```
+
 
