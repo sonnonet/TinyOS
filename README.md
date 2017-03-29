@@ -154,3 +154,8 @@ Suppose you named this file <pre>tinyos.env</pre> There are now at least two pos
 # How to setting Vim for Nesc
 if root
 vim /root/.vim/vimrc
+
+# How to setting /dev/ttyUSB0 pemmion denied for general user
+sudo adduser id dialout
+sudo chmod a+rw /dev/ttyUSB0
+
