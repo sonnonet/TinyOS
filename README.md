@@ -9,7 +9,7 @@ sudo apt-get install -y vim
 1.Tinyos Reposity add
   sudo vim /etc/apt/sources.list 
   add under line
- deb http://tinyos.standford.edu/tinyos/dists/ubuntu lucid main
+ ~~deb http://tinyos.standford.edu/tinyos/dists/ubuntu lucid main~~
 sudo apt-get update 
 
 sudo chown username@username -R /opt/tinyos-2.1.2/
