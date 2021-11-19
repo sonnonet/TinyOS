@@ -162,5 +162,10 @@ sudo reboot
 id -Gn
 ls -l /dev/ttyUSB0
 ```
-
+  
+```
+  $ /opt/tinyos2.1.2/app/Blink/
+  $ make telosb install.100
+```
+  
 
